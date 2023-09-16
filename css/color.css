@@ -1,0 +1,30 @@
+:root {
+    --high:#0066ff;
+    --text:rgb(0, 0, 0);
+    --htext:rgb(123, 158, 255);
+    --ptext:rgb(92, 92, 92);
+    --bg:rgb(255, 255, 255);
+    --bgmain:rgb(119, 119, 119);
+    --itemcard:rgb(255, 255, 255);
+    --hovercolor:#000000;
+    --hovertext:#06a4ff;
+    --footer:#b7f1ff;
+    --stars:#ffd900;
+}
+.dark-theme {
+    --high:#00fc37;
+    --text:rgb(218, 218, 218);
+    --btext:#ffffff;
+    --ptext:#949494;
+    --bg:#000000;
+    --bgmain:rgb(119, 119, 119);
+    --itemcard:#1d1d1d;
+    --hovercolor:#009c8e;
+    --hovertext:#ffffff;
+    --footer:#006983;
+    --stars:#ff9900;
+}
+
+body{
+    background-color: var(--bg);
+}

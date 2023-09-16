@@ -1,0 +1,120 @@
+/* Footer */
+footer{
+  background-color: var(--footer);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px 40px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+  margin-bottom: 0px;
+}
+
+/* Columns */
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Logo */
+footer .logo{
+  margin-bottom: 10px;
+}
+footer .col .logo{
+margin: 10px 0 15px 0;
+width: 150px;
+filter: invert(27%) sepia(100%) saturate(2045%) hue-rotate(210deg) brightness(101%) contrast(108%);
+}
+
+/* Heading */
+footer h4{
+  font-size: 16px;
+  padding-bottom: 10px;
+  font-weight: 900;
+  color: var(--hovertext);
+  font-family: 'maintext';/*------font-------*/
+}
+
+/* Paragraph */
+footer p{
+  color: var(--text);
+  font-size: 13px;
+  margin: 0 0 8px 0;
+  font-family: 'para';/*------font-------*/
+}
+
+/* Links */
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--text);
+  margin-bottom: 5px;
+  font-family: 'parabold';/*------font-------*/
+}
+
+/* Follow */
+footer .follow{
+  margin-top: 20px;
+}
+
+/* Social media icons */
+footer .follow i{
+  color: var(--text);
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+/* Installation image */
+footer .col .inst{
+  margin: 10px 0 15px 0;
+  width: 250px;
+}
+
+/* Hover effects */
+footer .follow i:hover, footer a:hover,footer .col button:hover{
+  color: var(--high);
+}
+
+/* Centered copyright */
+footer .cr{
+  width: 100%;
+  text-align: center;
+  margin-bottom: -20px;
+}
+footer .col button{
+background: none;
+border: none;
+font-size: 13px;
+color: #222;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1080px) {
+footer {
+  padding: 40px;
+}
+footer .col {
+  flex-basis: 50%;
+  margin-bottom: 40px;
+}
+}
+
+@media screen and (max-width: 768px) {
+footer {
+  padding: 20px;
+  padding-left: 50px;
+}
+footer .col {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+footer .logo img {
+  width: 150px;
+}
+footer .install img {
+  width: 150px;
+}
+}

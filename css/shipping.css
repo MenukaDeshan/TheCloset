@@ -1,0 +1,227 @@
+#shippping{
+    min-height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    font-size: 0.8rem;
+}
+.upper img{
+    width: 200px;
+}
+.navlist{
+    justify-content: flex-start;
+}
+.navlist .navs{
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+}
+.navlist .navs li{
+    padding-right: 10px;
+}
+.navlist .navs li .active{
+    color: var(--high);
+}
+.navlist .navs li:hover{
+    color: var(--high);
+}
+.card{
+    max-width: 1000px;
+    border: none;
+}
+.card-top{
+    padding: 0.7rem 5rem;
+}
+.card-top a{
+    float: left;
+    margin-top: 0.7rem;
+}
+#logo{
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.border{
+    border-radius: 20px;
+    height: 70vh;
+}
+.card-body{
+    padding: 0 5rem 5rem 5rem;
+    background-image: url("https://i.imgur.com/4bg1e6u.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+@media(max-width:768px){
+    .card-body{
+        padding: 0 1rem 1rem 1rem;
+        background-image: url("https://i.imgur.com/4bg1e6u.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
+    .card-top{
+        padding: 0.7rem 1rem;
+    }
+}
+.row{
+    margin: 0;
+}
+.upper{
+    padding: 1rem 0;
+    justify-content: space-evenly;
+}
+#three{
+    border-radius: 1rem;
+        width: 22px;
+    height: 22px;
+    margin-right:3px;
+    border: 1px solid blue;
+    text-align: center;
+    display: inline-block;
+}
+#payment{
+    margin:0;
+    color: blue;
+}
+.icons{
+    margin-left: auto;
+}
+form span{
+    color: rgb(179, 179, 179);
+}
+form{
+    padding: 10px 0;
+}
+form div{
+    padding: 5px 0px;
+}
+form select{
+    padding: 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    outline: none;
+    width: 100%;
+}
+input:focus::-webkit-input-placeholder
+{
+      color:transparent;
+}
+form .input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    outline: none;
+    width: 100%;
+}
+
+form .checkbox{
+    padding: 2px 2px;
+}
+form select{
+    border:1px solid rgb(202, 202, 202);
+}
+form input:focus,form select:focus{
+    outline: none;
+    border:2px solid rgb(17, 0, 255);
+}
+.gin{
+    display: flex;
+    width: 100%;
+}
+.gin input{
+    width: 100%;
+}
+.gin .gsemi{
+    width: 100%;
+}
+.gin .g{
+    margin-right: 10px;
+}
+.cartde{
+    flex-basis: 40%;
+    padding: 20px 20px;
+}
+.gin .re{
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+}
+.header{
+    font-size: 1.5rem;
+}
+.left{
+    background-color: #ffffff;
+    padding: 2vh;   
+}
+.left img{
+    width: 2rem;
+}
+.left .col-4{
+    padding-left: 0;
+}
+.right .item{
+    padding: 0.3rem 0;
+}
+.right{
+    background-color: #ffffff;
+    padding: 2vh;
+}
+.col-8{
+    padding: 0 1vh;
+}
+.lower{
+    line-height: 2;
+}
+.btn{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--hovercolor);
+    color: var(--hovertext);
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 1vh 0 1.5vh 0;
+    border-radius: 10px;
+}
+
+.btn:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none; 
+}
+.btn:hover{
+    color: var(--hovercolor);
+    background-color: var(--hovertext);
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+input[type=checkbox]{
+    width: unset;
+    margin-bottom: unset;
+}
+#cvv{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.575) , rgba(255, 255, 255, 0.541)), url("https://img.icons8.com/material-outlined/24/000000/help.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+} 
+#cvv:hover{
+
+}

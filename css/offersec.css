@@ -1,0 +1,92 @@
+#offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg);
+    height:auto;
+    padding:20px 20px;
+    box-sizing: border-box;
+    background-image: url('../img/slider/sli2.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+  }
+  .offers-row{
+    margin-top: 20px;
+  }
+  .offercol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    height: 300px;
+    border-radius: 20px;
+    background: rgba(2, 2, 2, 0.45);
+  }
+  .offercol h1{
+    font-size: 20px;
+    font-family: 'para';/*------font-------*/
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-weight: 900;
+    color:var(--htext);
+  }
+  .offercol h2{
+    font-family: 'para';/*------font-------*/
+    font-size: 30px;
+    font-weight: 600;
+    color:var(--htext);
+  }
+  .offercol button{
+    background-color: var(--bg);
+    font-family: 'navbar';/*------font-------*/
+    border: none;
+    color: text;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+  }
+  .offercol button:hover{
+    color: var(--hovertext);
+    background-color: var(--hovercolor);
+  }
+  .offer1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
+    url(../img/slider//pexels-trinitsy-kubassek-445109.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .offer2{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url(../img/bg/pexels-evg-kowalisevska-1040424.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .offer3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
+    url(../img/bg/pexels-monsteras-7691217.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .offer4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
+    url(../img/slider/slsi22.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

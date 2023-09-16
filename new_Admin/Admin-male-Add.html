@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="icon" type="image/png" href="../img/cwhite.png">
+    <title>The Closet</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='../framework/bootstrap/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='../framework/fontawesome/css/all.min.cs'>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/color.css">
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../framework/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../framework/fontawesome/css/all.min.css">
+    
+</head>
+<body>
+  <body>
+    <section id="home" class="adminnav">
+        <div class="container-fluid">
+            <div class="row">
+            <!--NavBar-->
+                 <div class="col-md-12 navbar" id="navbar_top">
+                    <a href="index.html" class="logo text-white navbar-brand offset-md-2"><img src="../img/logoblack.png" class="logoimg"></a>
+                    <ul class="nav">
+                        <li class="nav-item dropdown" id="men-dropdown">
+                            <a href="men.html" class="nav-link">MEN CLOTHS MANAGE</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="menproducts/tshirts.html">ADD ITEMS</a></li>
+                                <li><a class="dropdown-item" href="menproducts/shirts.html">MANAGE ITEMS</a></li>
+                                <li><a class="dropdown-item" href="menproducts/trousers.html">SEARCH ITEMS</a></li>
+                              </ul>
+                        </li>
+                          
+                          <li class="nav-item dropdown" id="women-dropdown">
+                            <a href="women.html" class="nav-link">WOMEN CLOTHS MANAGE</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="menproducts/tshirts.html">ADD ITEMS</a></li>
+                                <li><a class="dropdown-item" href="menproducts/shirts.html">MANAGE ITEMS</a></li>
+                                <li><a class="dropdown-item" href="menproducts/trousers.html">SEARCH ITEMS</a></li>
+                              </ul>
+                          </li>
+                          
+                          <li class="nav-item dropdown" id="kids-dropdown">
+                            <a href="kids.html" class="nav-link">KIDS CLOTHS MANAGE</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="menproducts/tshirts.html">ADD ITEMS</a></li>
+                                <li><a class="dropdown-item" href="menproducts/shirts.html">MANAGE ITEMS</a></li>
+                                <li><a class="dropdown-item" href="menproducts/trousers.html">SEARCH ITEMS</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item"><a href="aboutus.html" class="nav-link">LOGOUT</a></li>
+                     </ul>
+                </div>
+    </section>
+<section  class="container" id="login">
+    <div class="container-fluid ps-md-0">
+        <div class="row g-0">
+          <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+          <div class="col-md-8 col-lg-6">
+            <div class="login d-flex align-items-center py-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9 col-lg-8 mx-auto">
+                    <h3 class="login-heading mb-4">Add Male Cloths</h3>
+      
+                    <!-- ADD ITEMS Form -->
+                    <form action="#" method="post" enctype="multipart/form-data">
+                      <div class="form-floating mb-3">
+                        <input class="form-control" id="floatingInput" type="text" name="Cloths_Name" value="" placeholder="Enter Cloth Name" required>
+                        <label for="floatingInput">Cloth Name</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input class="form-control"  name="Discription" value="" placeholder="Description" required>
+                        <label for="floatingPassword">Description</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="Price" value="" placeholder="Price"required>
+                        <label>Price</label>
+                      </div>
+                      <div class="form-group mb-3">
+                        <label>Size</label>
+                        <select class="form-control" name="Size">
+                                <option value="Small">Small</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                        </select>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" type="text" name="Metirial" value="" placeholder="Material" required>
+                        <label for="floatingPassword">Material</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control"  type="text" name="Qty" value="" placeholder="Quantity" required>
+                        <label for="floatingPassword">Quantity</label>
+                      </div>
+                        <div class="form-group mb-3">
+                            <label class="labelGrp">File</label>
+                            <input class="achr" type="file" name="img">
+                        </div>
+                      <div class="d-grid">
+                        <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit" name="submit">ADD</button>
+                      </div>
+      
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</section>
+
+<script src="js/dark.js"></script>
+    <script src="js/snav.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/navdropdown.js"></script>
+    <script src='framework/bootstrap/js/bootstrap.min.js'></script>
+    <script src='framework/jquery/jquery.js'></script>
+<script src="framework/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

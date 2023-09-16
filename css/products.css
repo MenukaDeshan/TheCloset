@@ -1,0 +1,93 @@
+
+#products-banner #carouselExampleIndicators{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+#products-banner #carouselExampleIndicators .carousel-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#products-banner #carouselExampleIndicators .carousel-inner::before{
+    position: absolute;
+    content: '';
+    /*background: rgba(2, 2, 2, 0.45);*/
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+#products-banner #carouselExampleIndicators .carousel-inner .carousel-item{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url("../img/slider/Artboard1mini.png");
+    background-size: cover;
+    background-position: center;
+}
+#products-banner #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+    background: url("../img/slider/Artboard2mini.png");
+    background-size: cover;
+    background-position: center;
+}
+#products-banner #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+    background: url("../img/slider/Artboard3mini.png");
+    background-size: cover;
+    background-position: center;
+}
+#products-banner #carouselExampleIndicators .carousel-inner .carousel-item .info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+#products-banner #carouselExampleIndicators .carousel-inner .carousel-item h1{
+    color: var(--text);
+    height: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+#products-banner #carouselExampleIndicators .carousel-inner .carousel-item h2{
+    color: var(--btext);
+    height: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#products-banner #carouselExampleIndicators .carousel-inner .carousel-item p{
+    color: var(--ptext);
+    height: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/*--*/
+
+#main-products{
+    padding-top: 40px;
+   padding-bottom: 80px;
+   background-color: var(--bg);
+}
+.header h2{
+    font-family: 'maintext';/*------font-------*/
+}
+.header h3{
+    font-family: 'maintext';/*------font-------*/
+}
